@@ -56,6 +56,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/etc/firmware/dbmd2_va_fw.bin:system/etc/firmware/dbmd2_va_fw.bin \
     vendor/samsung/hero2qltedcm/proprietary/etc/firmware/dbmd4_va_fw.bin:system/etc/firmware/dbmd4_va_fw.bin \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/soundfx/libaudiosaplus_sec.so:system/lib/soundfx/libaudiosaplus_sec.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/soundfx/libaudioeffectoffload.so:system/lib64/soundfx/libaudioeffectoffload.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
