@@ -590,7 +590,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/samsung/hero2qltedcm/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/hero2qltedcm/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/samsung/hero2qltedcm/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
@@ -924,7 +923,6 @@ PRODUCT_COPY_FILES += \
 
 # Time services
 PRODUCT_COPY_FILES += \
-    vendor/samsung/hero2qltedcm/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/samsung/hero2qltedcm/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so
@@ -1036,4 +1034,6 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libsdm-disp-apis \
     libthermalclient \
-    libtime_genoff
+    libtime_genoff \
+    TimeService \
+    com.qualcomm.location
