@@ -575,6 +575,7 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/samsung/hero2qltedcm/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/samsung/hero2qltedcm/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/samsung/hero2qltedcm/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/samsung/hero2qltedcm/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
