@@ -968,11 +968,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/etc/wifi/nvram_net.txt_wisol_b1:system/etc/wifi/nvram_net.txt_wisol_b1 \
     vendor/samsung/hero2qltedcm/proprietary/etc/wifi/nvram_net.txt_wisol_c0:system/etc/wifi/nvram_net.txt_wisol_c0
 
-# NFC firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/hero2qltedcm/proprietary/lib/hw/nfc_nci.msm8996.so:system/lib/hw/nfc_nci.msm8996.so \
-    vendor/samsung/hero2qltedcm/proprietary/lib64/hw/nfc_nci.msm8996.so:system/lib64/hw/nfc_nci.msm8996.so
-
 # Unknown
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/etc/firmware/Master0.bin:system/etc/firmware/Master0.bin \
