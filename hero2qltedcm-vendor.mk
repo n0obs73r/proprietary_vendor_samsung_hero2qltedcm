@@ -673,7 +673,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
-    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
