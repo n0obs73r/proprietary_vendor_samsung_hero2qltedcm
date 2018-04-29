@@ -949,6 +949,79 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.sec_hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.sec_hostapd@1.0.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so
 
+# Wfd
+PRODUCT_COPY_FILES += \
+    vendor/samsung/hero2qltedcm/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/samsung/hero2qltedcm/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
+    vendor/samsung/hero2qltedcm/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+    vendor/samsung/hero2qltedcm/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+    vendor/samsung/hero2qltedcm/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libmmparser.so:system/lib64/libmmparser.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdavenhancements.so:system/lib64/libwfdavenhancements.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdcodecv4l2.so:system/lib64/libwfdcodecv4l2.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdcommonutils.so:system/lib64/libwfdcommonutils.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdconfigutils.so:system/lib64/libwfdconfigutils.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdmminterface.so:system/lib64/libwfdmminterface.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdmmsink.so:system/lib64/libwfdmmsink.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdmmsrc.so:system/lib64/libwfdmmsrc.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdrtsp.so:system/lib64/libwfdrtsp.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdservice.so:system/lib64/libwfdservice.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfdsm.so:system/lib64/libwfdsm.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfduibcinterface.so:system/lib64/libwfduibcinterface.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfduibcsink.so:system/lib64/libwfduibcsink.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfduibcsinkinterface.so:system/lib64/libwfduibcsinkinterface.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfduibcsrc.so:system/lib64/libwfduibcsrc.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/libwfduibcsrcinterface.so:system/lib64/libwfduibcsrcinterface.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdcommonutils_proprietary.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhaldsmanager.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdmmservice.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdmodulehdcpsession.so
+
 # Docomo
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/etc/docomoset/theme.xml:system/etc/docomoset/theme.xml \
@@ -974,6 +1047,7 @@ PRODUCT_PACKAGES += \
     DCMMailProvider \
     ImsSettings \
     SPModePushNotifier \
+    WfdService \
     com.qualcomm.location \
     DCMAccountAuthenticator \
     DCMApplicationManager \
@@ -987,4 +1061,5 @@ PRODUCT_PACKAGES += \
     DCMWapPushHelper \
     DCMWipe \
     TimeService \
-    TuiService
+    TuiService \
+    WfdCommon
