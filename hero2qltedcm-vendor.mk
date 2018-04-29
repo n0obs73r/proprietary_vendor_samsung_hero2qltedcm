@@ -658,9 +658,7 @@ PRODUCT_COPY_FILES += \
 
 # Keystore
 PRODUCT_COPY_FILES += \
-    vendor/samsung/hero2qltedcm/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/samsung/hero2qltedcm/proprietary/lib/vendor.samsung.security.skeymaster@3.0.so:system/lib/vendor.samsung.security.skeymaster@3.0.so \
-    vendor/samsung/hero2qltedcm/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/samsung/hero2qltedcm/proprietary/lib64/vendor.samsung.security.skeymaster@3.0.so:system/lib64/vendor.samsung.security.skeymaster@3.0.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/vendor.samsung.security.skeymaster@3.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.security.skeymaster@3.0_vendor.so \
