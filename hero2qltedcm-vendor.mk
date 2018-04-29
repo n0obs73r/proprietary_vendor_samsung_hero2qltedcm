@@ -904,6 +904,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
+# SmartcardService
+PRODUCT_COPY_FILES += \
+    vendor/samsung/hero2qltedcm/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml
+
 # Thermal
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
@@ -1046,6 +1050,7 @@ PRODUCT_PACKAGES += \
     DCMIPPush \
     DCMMailProvider \
     ImsSettings \
+    SmartcardService \
     SPModePushNotifier \
     WfdService \
     com.qualcomm.location \
@@ -1062,4 +1067,5 @@ PRODUCT_PACKAGES += \
     DCMWipe \
     TimeService \
     TuiService \
+    org.simalliance.openmobileapi \
     WfdCommon
