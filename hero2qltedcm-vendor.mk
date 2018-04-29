@@ -915,6 +915,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so
 
+# TUI
+PRODUCT_COPY_FILES += \
+    vendor/samsung/hero2qltedcm/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/app/TuiService/lib/arm64/libTui.so:$(TARGET_COPY_OUT_VENDOR)/app/TuiService/lib/arm64/libTui.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so
+
 # Vibrator
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/lib/vendor.samsung.hardware.vibrator@1.0.so:system/lib/vendor.samsung.hardware.vibrator@1.0.so \
@@ -976,4 +986,5 @@ PRODUCT_PACKAGES += \
     DCMSettings \
     DCMWapPushHelper \
     DCMWipe \
-    TimeService
+    TimeService \
+    TuiService
