@@ -1050,7 +1050,6 @@ PRODUCT_PACKAGES += \
     DCMIPPush \
     DCMMailProvider \
     ImsSettings \
-    SmartcardService \
     SPModePushNotifier \
     WfdService \
     com.qualcomm.location \
