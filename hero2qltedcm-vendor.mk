@@ -70,6 +70,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/etc/permissions/audiosphere.xml:system/etc/permissions/audiosphere.xml \
     vendor/samsung/hero2qltedcm/proprietary/framework/audiosphere.jar:system/framework/audiosphere.jar \
+    vendor/samsung/hero2qltedcm/proprietary/lib/hw/audio.playback_record.default.so:system/lib/hw/audio.playback_record.default.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/hw/audio.tms.default.so:system/lib64/hw/audio.tms.default.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbmapper.so \
