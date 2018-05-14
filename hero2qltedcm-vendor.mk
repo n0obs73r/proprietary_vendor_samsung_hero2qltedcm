@@ -317,17 +317,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/samsung/hero2qltedcm/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/msm8996_camera.xml:system/etc/firmware/msm8996_camera.xml \
-    vendor/samsung/hero2qltedcm/proprietary/etc/firmware/s5k2p2xx_chromatix.xml:system/etc/firmware/s5k2p2xx_chromatix.xml \
     vendor/samsung/hero2qltedcm/proprietary/etc/firmware/s5k4e6xx_cc_chromatix.xml:system/etc/firmware/s5k4e6xx_cc_chromatix.xml \
     vendor/samsung/hero2qltedcm/proprietary/etc/firmware/s5k4e6xx_chromatix.xml:system/etc/firmware/s5k4e6xx_chromatix.xml
 
