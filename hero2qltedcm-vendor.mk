@@ -1030,6 +1030,7 @@ PRODUCT_COPY_FILES += \
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    libantradio \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
