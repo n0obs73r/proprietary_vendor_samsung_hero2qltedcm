@@ -724,7 +724,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/bin/hw/vendor.nxp.nxpnfc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.nxpnfc@1.0-service \
     vendor/samsung/hero2qltedcm/proprietary/vendor/etc/init/vendor.nxp.nxpnfc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.nxpnfc@1.0-service.rc \
-    vendor/samsung/hero2qltedcm/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/hw/vendor.nxp.nxpnfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.nxp.nxpnfc@1.0-impl.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/libcordon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcordon.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpnfc@1.0.so \
