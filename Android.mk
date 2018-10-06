@@ -78,6 +78,18 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := DCMDmarket
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/app/DCMDmarket/DCMDmarket.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := DCMEmojiPackage
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/app/DCMEmojiPackage/DCMEmojiPackage.apk
@@ -191,18 +203,6 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := DCMDmarket
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/priv-app/DCMDmarket/DCMDmarket.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := DCMDmenu
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/priv-app/DCMDmenu/DCMDmenu.apk
@@ -287,6 +287,18 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := imsservice
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/priv-app/imsservice/imsservice.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
@@ -307,6 +319,16 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := ReferenceFeature
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/etc/lm/ReferenceFeature.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .xml
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
