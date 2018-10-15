@@ -56,6 +56,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/rfsa/adsp/us-syncproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/us-syncproximity.so
 
+# ANT+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/hero2qltedcm/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so
+
 # Audio ACDB
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Bluetooth_cal.acdb \
