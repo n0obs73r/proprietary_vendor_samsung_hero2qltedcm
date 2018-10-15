@@ -20,17 +20,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),hero2qltedcm)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.qti.bluetooth_audio@1.0
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES_64 := proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
-LOCAL_SRC_FILES_32 := proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libgpustats
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libgpustats.so

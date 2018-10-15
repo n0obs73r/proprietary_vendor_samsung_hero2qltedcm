@@ -113,6 +113,8 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
+    vendor/samsung/hero2qltedcm/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
+    vendor/samsung/hero2qltedcm/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/samsung/hero2qltedcm/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/samsung/hero2qltedcm/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
@@ -1028,7 +1030,6 @@ PRODUCT_COPY_FILES += \
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    com.qualcomm.qti.bluetooth_audio@1.0 \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
