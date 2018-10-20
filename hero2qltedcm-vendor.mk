@@ -123,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
+    vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so
 
 # Bluetooth (aptX)
@@ -648,6 +649,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libvoice-svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvoice-svc.so
+
+# IPv6 tethering
+PRODUCT_COPY_FILES += \
+    vendor/samsung/hero2qltedcm/proprietary/bin/ebtables:system/bin/ebtables \
+    vendor/samsung/hero2qltedcm/proprietary/etc/ethertypes:system/etc/ethertypes
 
 # Keystore
 PRODUCT_COPY_FILES += \
