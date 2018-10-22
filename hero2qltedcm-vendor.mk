@@ -864,6 +864,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/samsung/hero2qltedcm/proprietary/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so
 
+# RCS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/hero2qltedcm/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
+    vendor/samsung/hero2qltedcm/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
+    vendor/samsung/hero2qltedcm/proprietary/framework/rcs_service_aidl.jar:system/framework/rcs_service_aidl.jar \
+    vendor/samsung/hero2qltedcm/proprietary/framework/rcs_service_api.jar:system/framework/rcs_service_api.jar
+
 # RIL
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
