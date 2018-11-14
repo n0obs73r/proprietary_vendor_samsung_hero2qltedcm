@@ -458,6 +458,11 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
+    vendor/samsung/hero2qltedcm/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/samsung/hero2qltedcm/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/samsung/hero2qltedcm/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/samsung/hero2qltedcm/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/samsung/hero2qltedcm/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/samsung/hero2qltedcm/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
     vendor/samsung/hero2qltedcm/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/samsung/hero2qltedcm/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
@@ -865,8 +870,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltedcm/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
     vendor/samsung/hero2qltedcm/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
+    vendor/samsung/hero2qltedcm/proprietary/etc/permissions/rcsopenapi_library.xml:system/etc/permissions/rcsopenapi_library.xml \
     vendor/samsung/hero2qltedcm/proprietary/framework/rcs_service_aidl.jar:system/framework/rcs_service_aidl.jar \
-    vendor/samsung/hero2qltedcm/proprietary/framework/rcs_service_api.jar:system/framework/rcs_service_api.jar
+    vendor/samsung/hero2qltedcm/proprietary/framework/rcs_service_api.jar:system/framework/rcs_service_api.jar \
+    vendor/samsung/hero2qltedcm/proprietary/framework/rcsopenapi.jar:system/framework/rcsopenapi.jar
 
 # RIL
 PRODUCT_COPY_FILES += \
@@ -1071,6 +1078,7 @@ PRODUCT_PACKAGES += \
     ImsSettings \
     SPModePushNotifier \
     WfdService \
+    com.qualcomm.location \
     DCMAccountAuthenticator \
     DCMApplicationManager \
     DCMCloudSetting \
