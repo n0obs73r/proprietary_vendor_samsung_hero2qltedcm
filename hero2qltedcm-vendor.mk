@@ -943,7 +943,8 @@ PRODUCT_COPY_FILES += \
 
 # SmartcardService
 PRODUCT_COPY_FILES += \
-    vendor/samsung/hero2qltedcm/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml
+    vendor/samsung/hero2qltedcm/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
+    vendor/samsung/hero2qltedcm/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar
 
 # Thermal
 PRODUCT_COPY_FILES += \
@@ -1100,8 +1101,8 @@ PRODUCT_PACKAGES += \
     DCMWapPushHelper \
     DCMWipe \
     imsservice \
+    SmartcardService \
     TimeService \
     TuiService \
     ReferenceFeature \
-    org.simalliance.openmobileapi \
     WfdCommon
