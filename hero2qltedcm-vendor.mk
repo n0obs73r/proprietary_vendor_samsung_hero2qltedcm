@@ -1105,4 +1105,5 @@ PRODUCT_PACKAGES += \
     TimeService \
     TuiService \
     ReferenceFeature \
+    QPerformance \
     WfdCommon
